@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = "*"
+jinja2 = "*"
+pypdf = "*"
+sentence-transformers = "*"
+chromadb = "*"
+openai = "*"
+tiktoken = "*"
+
+[dev-packages]
+ipykernel = "*"
